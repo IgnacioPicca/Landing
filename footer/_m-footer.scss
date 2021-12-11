@@ -1,0 +1,66 @@
+@media screen and (max-width:420px){
+
+.skew--background-f{
+    height: 341px;     
+    width: 100%;     
+    background: linear-gradient(225deg, #0000ff, #0000a3);     
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);     
+    width: 100%;
+    z-index: -1;
+}
+
+
+.novelties-container{
+    width: 90%;
+    height: 341px;
+    text-align: center;
+    margin-top: 42px;
+    margin-left: 5%;
+    &-title{
+        color: white;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 42px;
+        padding: 64px 16px 0px}
+}
+
+.novelties-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00F3BB;
+    height: 48px;
+    width: 90%;
+    margin: 36px 16px 67px;
+}
+
+.p-container{
+    width: 70.9%;
+    height: 22px;
+    margin: 0.4% 14.4% 0.3% 14.7%;
+    }
+
+.footer-background{
+    background-color: white;
+    width: 100vw;
+    height: 121px;
+    padding-top: 24px;;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.footer-brands{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 45px 31px;
+}
+a{
+    color: black;
+}
+}

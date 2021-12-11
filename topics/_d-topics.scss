@@ -1,0 +1,42 @@
+@media screen and (min-width:421px){
+
+    .topic-m{
+        display: none;
+        }
+
+    .topic-title {
+        height: 1.6%;
+        width: 40.7%;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+        margin-left: 200px;
+        margin-top: 64px;
+    }
+    
+    h2{
+        font-size: 48px;
+    }
+    
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        margin: 69px 278px 29px 278px;
+        &-img{
+            width: 104px;
+            height: 104px;
+        }
+    }
+
+    .text{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 265px;
+        font-size: 24px;
+    }
+}
+
+
+

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Podcast</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./img/logo.svg" alt="logo" class="navbar--brand">
+            <div class="navbar--menu">
+                <input type="checkbox" id="btn-menu">
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+                <ul class="navbar--menu-container ibmmono-regular">
+                    <li><a href="#ir-a-episodios" class="navbar--menu-item">LISTEN</a></li>
+                    <li><a class="navbar--menu-item">ABOUT</a></li>
+                    <li><a class="navbar--menu-item">INTERVIEW</a></li>
+                    <li><a href="#ir-a-topicos" class="navbar--menu-item">TOPICS</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="ibmsans-regular">Hello <span id="tachado">world</span> <span class="h1-desktop">pale blue
+                dot</span><span id="dot">.</span> <br>
+            <span id="h1-mobile">pale blue dot.</span>
+        </h1>
+        <div class="h1-info">
+            <p class="h1-info-p ibmmono-regular">Un podcast que explora el mundo de la programación. Nuevos episodios,
+                todos los jueves
+                cada 15 días.
+            </p>
+        </div>
+
+        <p class="texto ibmmono-regular">Boost your programming skills. <br> 
+            <br>   
+           New episodes every thuersday.</p>
+
+        <div class="extrainfo-p ibmmono-medium">
+            <a id="conoce-mas">VIEW MORE</a>
+        </div>
+    </header>
+    <main>
+        <section class="episodes">
+            <div class="skew--background"></div>
+            <div class="episodes-title-container">
+                <h2 id="ir-a-episodios" class="episodes-title ibmsans-regular">Episodes</h2>
+            </div>
+
+            <div class="episodes-container">
+                <iframe class="episodes-card"
+                    src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu"
+                    allow="encrypted-media"></iframe>
+                <iframe class="episodes-card"
+                    src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                    allow="encrypted-media"></iframe>
+                <iframe class="episodes-card"
+                    src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                    allow="encrypted-media"></iframe>
+                <iframe class="episodes-card"
+                    src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW"
+                    allow="encrypted-media"></iframe>
+            </div>
+        </section>
+        <section class="history">
+            <div class="img-container">
+                <img src="./img/phone.png" class="img-container-phone" alt="phone">
+            </div>
+            <div>
+                <div class="history-title-container">
+                    <h2 id="ir-a-nosotros" class="history-title ibmsans-regular">About us</h2>
+                </div>
+                <div class="history-content ibmmono-regular">
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privilegedposition
+                        in the Universe, are challenged by this point of pale light.</p>
+                    <br>
+                    <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all
+                        this
+                        vastness,
+                        there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </div>
+        </section>
+        <section class="guests">
+            <div class="guests-title-container">
+                <h2 class="guests-title ibmsans-regular">Featured Guests</h2>
+            </div>
+            <div class="invite--container">
+                <img src="./img/grace-hopper.png" alt="grace-hopper" class="img-invite">
+                <img src="./img/Katie-Bouman.png" alt="Katie-Bouman" class="img-invite">
+                <img src="./img/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="img-invite">
+                <img src="./img/computer-1950.png" alt="first-computer" class="img-invite">
+                <img src="./img/first-programmable-computer.png" alt="first-programmable-computer" class="img-invite">
+                <img src="./img/susan-kare.png" alt="susan-kare" class="img-invite">
+            </div>
+        </section>
+
+        <section>
+            <div class="topic-title">
+                <h2 id="ir-a-topicos" class="ibmsans-regular">Table of contents</h2>
+            </div>
+
+            <div class="topic-m">
+                <div class="icon1">
+                    <img src="./png/icon1.svg" class="icon1-icon" alt="icon1">
+                </div>
+                <div class="icon1-container">
+                    <p class="icon1-container-p ibmsans-semibold">Teleworking </p>
+                </div>
+                <div class="icon2">
+                    <img src="./png/icon2.svg" class="icon2-icon" alt="icon2">
+                </div>
+                <div class="icon2-container">
+                    <p class="icon2-container-p ibmsans-semibold">Rethinking the profession</p>
+                </div>
+                <div class="icon3"> <img src="./png/icon3.svg" class="icon3-icon" alt="icon3">
+                </div>
+                <div class="icon3-container">
+                    <p class="icon3-container-p ibmsans-semibold">Code bases</p>
+                </div>
+                <div class="icon4"> <img src="./png/icon4.svg" class="icon4-icon" alt="icon4">
+                </div>
+                <div class="icon4-container">
+                    <p class="icon4-container-p ibmsans-semibold">Information security</p>
+                </div>
+            </div>
+
+            <div class="topic-d">
+                <div class="icons">
+                    <img src="./png/icon1.svg" class="icons-img" alt="icon1">
+                    <img src="./png/icon2.svg" class="icons-img" alt="icon2">
+                    <img src="./png/icon3.svg" class="icons-img" alt="icon3">
+                    <img src="./png/icon4.svg" class="icons-img" alt="icon4">
+                </div>
+
+                <div class="text">
+                    <p class="icon1-container-p ibmsans-semibold">Teleworking</p>
+                    <p class="icon2-container-p ibmsans-semibold">Rethinking the <br> profession</p>
+                    <p class="icon3-container-p ibmsans-semibold">Code bases</p>
+                    <p class="icon4-container-p ibmsans-semibold">Information<br> security </p>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="novelties">
+            <div class="skew--background-f">
+                <div class="novelties-container">
+                    <div class="novelties-container-title">
+                        <h2 class="ibmsans-regular">Enjoy all podcasts here</h2>
+                    </div>
+                    <div class="novelties-button"><a class="ibmmono-medium">¡GO!</a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <div class="footer">
+            <div class="footer-text">
+                <p class="ibmmono-regular">© 2019— Hello blue pale dot</p>
+            </div>
+            <div class="footer-brands">
+                <a href="https://www.spotify.com"><i id="spotify" class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/?hl=es-la"> <i id="instagram" class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es"><i id="twitter" class="fab fa-twitter"></i></a>
+                <a href="https://es-la.facebook.com/"><i id="facebook" class="fab fa-facebook"></i></a>
+                <a href="https://web.telegram.org/#/login"><i id="telegram" class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

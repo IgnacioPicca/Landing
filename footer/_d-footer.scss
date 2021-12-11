@@ -1,0 +1,72 @@
+@media screen and (min-width:421px){
+
+.skew--background-f{
+    background: linear-gradient(225deg, #0000ff, #0000a3);     
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);     
+    width: 100%;
+    height: 518px;
+    z-index: -1;
+}
+
+.novelties-container{
+    width: 100%;
+    height: 341px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 180px;
+    &-title{
+        color: white;
+        letter-spacing: 0;
+        text-align: center;
+        font-size: 48px;
+}
+}
+
+.novelties-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00F3BB;
+    height: 48px;
+    width: 24%;
+    margin-top: 36px;
+    margin-left: 38%;
+}
+
+.novelties-button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    &-text{
+        margin: 36px 0 31px 100px;
+    }
+    &-brands{
+        margin: 36px 100px 31px 0;
+        #spotify{ 
+            padding-right: 36px;
+        }
+        #instagram{
+            padding-right: 36px;
+        }
+        #twitter{
+            padding-right: 36px;
+        }
+        #facebook{
+            padding-right: 36px;
+        }
+        #telegram{
+            padding-right: 36px;
+        }
+       
+    }
+}
+
+}

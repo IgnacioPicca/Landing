@@ -1,0 +1,21 @@
+TODO
+
+Dejar todo en ingles.
+
+Darle mas visibilidad al NEW EPISODES
+
+Modificar el button para ir a los podcasts
+
+Solucionar las anclas
+
+Resolver hover del navbar
+
+Resolver hover del conocé más
+
+Cambiar 1 href de spotify caido
+
+Poner ancla en ultimas novedades
+
+Poner datos en el footer
+
+Comprobar versión mobile que todo funcione bien con las medidas

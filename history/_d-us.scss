@@ -1,0 +1,55 @@
+@media screen and (min-width:421px){
+
+
+    .history-title{
+        font-family: $font-family2;
+    }
+    
+    .img-container-phone{
+        width: 457.8px;
+        height: 660px;
+        margin:0;
+        margin-left: 200px;
+    }
+    
+    
+    .history{
+        display: flex;
+        justify-items: center;
+        margin:16px;
+
+        &-title-container{
+        height: 62px;
+        width: 399px;
+        margin-top: 200px;
+        margin-left: 65px;
+    }
+    }
+    .history-title {
+        margin-top: 27px;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+        }
+    
+    .history-content{
+        height: 254px;
+        width: 400px;
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+        margin-top: 8px;
+        margin-left: 65px;
+    }
+    
+    }
+
+
+
+
+
+
+
+

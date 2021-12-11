@@ -1,0 +1,112 @@
+@media screen and (min-width:421px){
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    &--menu{
+        display: flex;
+        justify-content: space-between;
+        &-item{
+            padding-right: 100px;
+            cursor: pointer;
+        }
+        
+        &-item:hover{
+            text-decoration: line-through;
+            color: #00f3bb;
+            font-family: "IBM Plex Mono", monospace;
+        }
+        &-item:active{
+            text-decoration: line-through;
+            color: #060a24;
+            opacity: 56%;
+        }
+
+
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+    &--brand{
+        height: 36px;
+        width: 36px;
+        margin: 0.6% 6.9%; 
+}        
+
+    #btn-menu{
+        display: none;
+    }
+    .fa-times{
+        display: none;
+    }
+    .fa-bars{
+        display: none;
+        }
+    }
+     
+#tachado {
+        text-decoration: line-through; 
+    }
+
+h1{
+    margin-left: 200px;
+    margin-top: 120px;
+    font-size: 64px;
+}
+
+#dot {
+    color: blue;
+}
+
+#h1-mobile{
+    display: none;
+}
+
+.h1-info{
+    display: none;
+}
+
+.texto {
+    margin-left: 200px;
+}
+
+
+.extrainfo-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00F3BB;
+    height: 48px;
+    width: 15.7%;
+    margin-left: 200px;
+    margin-top: 56px;
+    transition: duration 0.4s;
+    cursor: pointer;
+    border: none;
+}
+
+.extrainfo-p:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+    border: none;
+}
+
+#conoce-mas:hover{
+    color: white;
+}
+
+#conoce-mas{
+    color:#060A24 100%; 
+    text-decoration: none;
+}
+
+
+a{text-decoration: none;
+    color:black
+}
+}

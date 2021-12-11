@@ -1,0 +1,28 @@
+@media screen and (min-width:421px){
+ 
+    .guests-title{
+       font-family: $font-family2;
+       font-size: 48px;
+       &-container{
+       height: 84px;
+       width: 481px;
+       margin-top: 64px;
+       margin-left: 200px;
+       color: #060A24;
+       letter-spacing: 0;
+       line-height: 42px;
+                           }
+   }
+   
+   .invite--container {
+        line-height:0;
+        padding-top: 14px;
+        display: flex;
+        flex-flow: row wrap;
+   }
+
+   .img-invite{
+       width: 33.3%;
+       height: 364px;
+   }
+   }

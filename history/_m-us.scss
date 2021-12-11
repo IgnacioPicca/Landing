@@ -1,0 +1,38 @@
+@media screen and (max-width:420px){
+
+.history-title{
+    font-family: $font-family2;
+}
+
+.img-container-phone{
+    width: 320px;
+    margin:0;
+}
+
+
+.history{
+    margin:16px;
+    &-title-container{
+    height: 84px;
+    width: 288px;
+}
+}
+.history-title {
+    margin-top: 27px;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    }
+
+.history-content{
+    height: 254px;
+    width: 288px;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 8px;
+}
+
+}
